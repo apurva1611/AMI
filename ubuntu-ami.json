@@ -5,8 +5,7 @@
         "aws_region": "",
         "subnet_id": "subnet-16e60537",
         "source_ami": "",
-        "ssh_username": "ubuntu",
-	    "ami_users": "934490181790"
+        "ssh_username": "ubuntu"
     },
     "builders": [
         {
