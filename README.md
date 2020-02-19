@@ -5,7 +5,7 @@ Repository to build ami
 one for dev account and one for prod account
 
 2. Dev Command is : aws configure --profile dev - credentails of circleci user 
-3. Prod command is : aws configure --profile prod - credentials of 
+3. Prod command is : aws configure --profile prod - credentials of prodProfileaws user
 
 4. How to build an ami using packer:
 Go to folder ami:
