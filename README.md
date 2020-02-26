@@ -27,6 +27,4 @@ e. source_ami
 6. Launch an ec2 instance using this AMI in amazon management console.
 7. In ur system SSH into that created instance using 
 ssh -i .ssh/awsSSHKey ubuntu@(Public Ip4 addresss of instance lunched)
-8. vars file deleted.
-
 
