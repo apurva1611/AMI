@@ -28,5 +28,5 @@ e. source_ami
 7. In ur system SSH into that created instance using 
 ssh -i .ssh/awsSSHKey ubuntu@(Public Ip4 addresss of instance lunched)
 8. vars file deleted.
-
+9.check
 
