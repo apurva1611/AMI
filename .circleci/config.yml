@@ -26,9 +26,6 @@ jobs:
             -var "source_ami=${source_ami}" \
             -var "subnet_id=${subnet_id}" \
             ubuntu-ami.json
-      - run:
-          name: Install packages
-          command: sudo apt-get update && sudo apt-get install wget zip unzip python2.7 python-pip -y
 workflows:
   version: 2
   build_deploy:
