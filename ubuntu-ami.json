@@ -41,7 +41,12 @@
                 "sudo apt-get update",
                 "sudo apt-get install curl -y",
                 "sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -",
-                "sudo apt-get install nodejs -y"
+                "sudo apt-get install nodejs -y",
+                "sudo apt-get update && sudo apt-get install wget zip unzip python2.7 python-pip -y",
+                "sudo pip install awscli",
+                "aws configure set default.region us-east-1"
+
+
             ]
         }
     ]
