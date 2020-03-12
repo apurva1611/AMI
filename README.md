@@ -23,8 +23,9 @@ d. subnet_id
 e. source_ami
 3. Commit in this repository.
 4.Merge branch on master.
-5.In circleci an ami will be created in dev account which has node env already installed and will be shared in prod account.
+5.In circleci an ami will be created in dev account which has node env,aws cl already installed and will be shared in prod account.
 6. Launch an ec2 instance using this AMI in amazon management console.
 7. In ur system SSH into that created instance using 
 ssh -i .ssh/awsSSHKey ubuntu@(Public Ip4 addresss of instance lunched)
+
 
