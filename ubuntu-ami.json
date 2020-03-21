@@ -49,10 +49,10 @@
                 "wget https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/latest/install",
                 "chmod +x ./install",
                 "sudo ./install auto",
-                "sudo wget http://mirror.centos.org/centos-5/5.10/os/x86_64/CentOS/yum-3.2.22-40.el5.centos.noarch.rpm",
                 "cd /opt",
+                "sudo apt install alien -y",
                 "sudo wget https://s3.amazonaws.com/amazoncloudwatch-agent/centos/amd64/latest/amazon-cloudwatch-agent.rpm",
-                "sudo rpm -U ./amazon-cloudwatch-agent.rpm",
+                "sudo alien -i ./amazon-cloudwatch-agent.rpm",
                 "sudo systemctl start amazon-cloudwatch-agent.service",
                 "sudo systemctl enable amazon-cloudwatch-agent.service"
 
