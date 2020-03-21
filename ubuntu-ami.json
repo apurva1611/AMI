@@ -48,10 +48,12 @@
                 "sudo apt-get install ruby -y",
                 "wget https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/latest/install",
                 "chmod +x ./install",
-                "sudo ./install auto"
-
-
-
+                "sudo ./install auto",
+                "sudo cd /opt",
+                "sudo wget https://s3.amazonaws.com/amazoncloudwatch-agent/centos/amd64/latest/amazon-cloudwatch-agent.rpm",
+                "sudo rpm -U ./amazon-cloudwatch-agent.rpm",
+                "sudo systemctl start amazon-cloudwatch-agent.service",
+                "sudo systemctl enable amazon-cloudwatch-agent.service"
 
             ]
         }
