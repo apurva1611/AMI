@@ -50,12 +50,9 @@
                 "wget https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/latest/install",
                 "chmod +x ./install",
                 "sudo ./install auto",
-                "cd /opt",
-                "sudo apt install alien -y",
-                "sudo wget https://s3.amazonaws.com/amazoncloudwatch-agent/centos/amd64/latest/amazon-cloudwatch-agent.rpm",
-                "sudo alien -i ./amazon-cloudwatch-agent.rpm",
-                "sudo systemctl start amazon-cloudwatch-agent.service",
-                "sudo systemctl enable amazon-cloudwatch-agent.service"
+                "sudo wget https://s3.amazonaws.com/amazoncloudwatch-agent/debian/amd64/latest/amazon-cloudwatch-agent.deb",
+                "sudo dpkg -i -E ./amazon-cloudwatch-agent.deb",
+                "sudo systemctl start amazon-cloudwatch-agent.service"
 
             ]
         }
