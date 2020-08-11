@@ -1,5 +1,7 @@
 # ami
-Repository to build ami 
+Repository to build AMI needed for Bill Tracking Application.This AMI has all the dependencies needed for the Application. 
+AMI is built in AWS account. 
+Continuos integration is done using CircleCI.
 
 1. Using AWs CLI configure two profiles:
 one for dev account and one for prod account
@@ -7,7 +9,7 @@ one for dev account and one for prod account
 2. Dev Command is : aws configure --profile dev - credentails of circleci user 
 3. Prod command is : aws configure --profile prod - credentials of prodProfileaws user
 
-4. How to build an ami using packer commanf:
+4. How to build an ami using packer:
 Go to folder ami:
 file vars.json should have all parameters:
 1.packer validate -var-file=vars.json ubuntu-ami.json
