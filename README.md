@@ -1,4 +1,4 @@
-# ami
+# AMI
 Repository to build AMI needed for Bill Tracking Application.This AMI has all the dependencies needed for the Application. 
 AMI is built in AWS account. 
 Continuos integration is done using CircleCI.
